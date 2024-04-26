@@ -1,0 +1,102 @@
+body{
+    height: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-width: 100%;
+    /* background-color: red; */
+}
+header {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    /* background-color: brown; */
+}
+.header_logo{
+    display: flex;
+    /* background-color: blue; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.image_logo{
+    align-self: center;
+    justify-self: center;
+    padding-left: 100px;
+}
+.primary-menu {
+    display: flex;
+    flex-direction: row;
+}
+h3 {
+    font-size: 20px;
+    align-self: center;
+    /* background-color: red; */
+}
+.logo_text {
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.menu-items {
+    margin: 0px 10px;
+}
+
+main{
+    align-items: center;
+    justify-self: center;
+    /* background-color: blue; */
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 30px 30px 30px;
+}
+.container_inicio {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 400px;
+    justify-content: center;
+}
+.container_inicio_about_me {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio_text_container {
+    display: flex;
+    flex: 1;
+    padding: 5px 50px;
+    /* background-color: #fdddca ; */
+    text-align: center;
+    align-items: center;
+}
+.inicio_text_container_trayectoria {
+    display: flex;
+    flex: 1;
+    padding: 5px 50px;
+    /* background-color: #fdddca ; */
+    flex-direction: column;
+    text-align: start;
+    align-items: center;
+}
+.second_container{
+    padding: 0px 0px 20px
+}
+.inicio_imagen_container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px solid #0000;
+}
+.exalt_item {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
